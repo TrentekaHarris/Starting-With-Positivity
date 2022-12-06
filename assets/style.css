@@ -1,0 +1,27 @@
+body, html {
+    background-image:  url('images/indoorSpa.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-shadow: 2px 2px goldenrod
+}
+
+
+#username, #paraquote {
+    position: fixed;
+    top: 50%;
+    left: 35%;
+}
+
+#paraquote {
+    text-shadow: 5px 2px rgb(95, 72, 12);
+    
+}
+
+#paraweather  {
+    position: fixed;
+    top: 35%;
+    right: 0%;
+    text-shadow: rgb(6, 34, 13) 3px 0 10px; 
+}
