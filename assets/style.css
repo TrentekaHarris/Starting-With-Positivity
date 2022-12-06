@@ -4,24 +4,34 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    text-shadow: 2px 2px goldenrod
+    text-shadow: 2px 2px goldenrod;
+    font-family: poller;
 }
 
 
-#username, #paraquote {
+ #paraquote {
     position: fixed;
-    top: 50%;
-    left: 35%;
-}
-
-#paraquote {
-    text-shadow: 5px 2px rgb(95, 72, 12);
+    top: 55%;
+    left: 40%;
+    text-shadow: 0px 0px rgb(95, 72, 12);
+    padding-left: 2%;
+    color: teal;
     
 }
 
 #paraweather  {
     position: fixed;
-    top: 35%;
+    top: 30%;
     right: 0%;
-    text-shadow: rgb(6, 34, 13) 3px 0 10px; 
+    text-shadow: 7px 2px 5px rgb(77, 30, 151);; 
+    margin-right: 30%;
 }
+
+#todaysdate {
+    position: fixed;
+    left: 10%;
+    top: 20%;
+    font-size: 205%;
+    color:aquamarine;
+}
+

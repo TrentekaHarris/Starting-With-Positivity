@@ -1,24 +1,26 @@
 //variable for form
+
 const data = document.querySelector('#username');
 
 //Get desired name
 let nameValid = prompt("Please enter your name");
-console.log(nameValid)
+ let username = nameValid;
+
 
 
 //ensure input has values alert
 async function hasValue() {
-  
-  if(nameValid == null || nameValid == "") {
+
+  if (username == null || username == "") {
     alert("Please enter your desired name");
-  return false} else {
-    return getQuote() && getWeather();
+    return false
+  } else {
+    getQuote() && getWeather();
+  }
 }
-}
-
-hasValue()
 
 
+window.onload = hasValue()
 //get date
 let today = new Date().toDateString()
 document.getElementById("todaysdate").innerHTML = `${today}`

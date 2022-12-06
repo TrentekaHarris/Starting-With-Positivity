@@ -11,15 +11,16 @@ const weather = {
 async function getWeather () {
   let nameCity = prompt("Please your city name");
   if(nameCity == null || nameCity == "") {
-    alert("Please enter your desired name");
+    alert("Please enter your desired city's name to get the weather.");
   return false} else
 {  //Fetch weather from API
-  let response = fetch(`'https://weatherapi-com.p.rapidapi.com/forecast.json?q=${nameCity}&days=3'`, weather)
+  //let response = fetch(`'https://weatherapi-com.p.rapidapi.com/forecast.json?q=${nameCity}&days=3'`, weather)
 	
+  let response = fetch('https://weatherapi-com.p.rapidapi.com/forecast.json?q=auto%3Aip&days=3', weather)
   .then(response => response.json())
     .then(response => {
-    document.getElementById("paraweather").innerHTML = `Hello ${nameValid} it is currently ${response.current.feelslike_f}° and
-    ${response.current.condition.text} in ${response.location.name}`;
+    document.getElementById("paraweather").innerHTML = `Hello ${nameValid}, it is currently ${response.current.feelslike_f}° with
+    ${response.current.condition.text} in ${nameCity}`;
      
   })}
 }

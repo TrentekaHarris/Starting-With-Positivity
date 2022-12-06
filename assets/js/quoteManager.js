@@ -8,20 +8,16 @@ const options = {
 
 async function getQuote () {
    
-
   //Fetch Quote from API
   let response = fetch('https://quotes15.p.rapidapi.com/quotes/random/', options)
 	
   .then(response => response.json())
 	.then(response => {
-    
-    document.getElementById("paraquote").innerHTML = `
-     ${response.content} Have a wonderful day!!!`;
+    document.getElementById("paraquote").innerHTML = `${response.content} Have a wonderful day, ${nameValid}!!!`;
      
   })
 }
 
-//getQuote()
-//
+
 
 
