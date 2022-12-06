@@ -9,15 +9,20 @@ const weather = {
     
 
 async function getWeather () {
-   
-
-  //Fetch weather from API
-  let response = fetch('https://weatherapi-com.p.rapidapi.com/current.json?q=auto%3Aip', weather)
+  let nameCity = prompt("Please your city name");
+  if(nameCity == null || nameCity == "") {
+    alert("Please enter your desired name");
+  return false} else
+{  //Fetch weather from API
+  let response = fetch(`'https://weatherapi-com.p.rapidapi.com/forecast.json?q=${nameCity}&days=3'`, weather)
 	
   .then(response => response.json())
     .then(response => {
     document.getElementById("paraweather").innerHTML = `Hello ${nameValid} it is currently ${response.current.feelslike_f}° and
     ${response.current.condition.text} in ${response.location.name}`;
      
-  })
+  })}
 }
+
+
+
