@@ -4,36 +4,46 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    text-shadow: 2px 2px goldenrod;
+    text-shadow: 2px 3px rgb(10, 70, 85);
     font-family: poller;
 }
 
 
  #paraquote {
     position: fixed;
-    top: 55%;
-    left: 40%;
-    text-shadow: 0px 0px rgb(95, 72, 12);
+    top: 37%;
+    left: 30%;
+    text-shadow: 0px 2px 3px rgba(22, 90, 121, 0.753);
     padding-left: 2%;
-    color: teal;
+    color: rgb(5, 31, 31);
     bottom: 10%;
+    height: fit-content;
+    background-color: rgba(143, 96, 35, 0.473);
+    border: solid teal;
+    border-radius: 10%;
 
 }
 
 #paraweather  {
     position: fixed;
-    top: 30%;
+    top: 15%;
     right: 0%;
-    text-shadow: 7px 2px 5px rgb(77, 30, 151);; 
+    text-shadow: 2px 3px rgb(10, 70, 85);
     margin-right: 30%;
+    color: rgb(198, 228, 30);
+    font-style: oblique;
+    font-weight: 900px;;
+    height: fit-content;
+    background-color: rgba(37, 88, 133, 0.247);
+    border-radius: 5%;
 }
 
 #todaysdate {
     position: fixed;
     left: 10%;
-    top: 20%;
+    top: 5%;
     font-size: 205%;
-    color:aquamarine;
+    color:rgb(172, 223, 31);
 }
 
 footer, a {
