@@ -35,3 +35,10 @@ body, html {
     color:aquamarine;
 }
 
+footer, a {
+    position: fixed;
+    bottom: 0;
+    color: black;
+    text-shadow: 0px 0px 0px;
+}
+

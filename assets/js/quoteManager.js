@@ -13,7 +13,7 @@ async function getQuote () {
 	
   .then(response => response.json())
 	.then(response => {
-    document.getElementById("paraquote").innerHTML = `${response.content} Have a wonderful day, ${nameValid}!!!`;
+    document.getElementById("paraquote").innerHTML = `${response.content} ~ ${response.originator.name}  🕊️ Have a wonderful day, ${nameValid}!!! 🕊️`;
      
   })
 }
