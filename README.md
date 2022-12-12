@@ -21,17 +21,17 @@ This application provides a random positive quote. There is also an option to ge
 
 This application was created to showcase my JavaScript coding skills. You will be required to input your name for the application to work. 
 
-![Alt text](url "Title")
+![Snapshot of name input](https://github.com/TrentekaHarris/Starting-With-Positivity/blob/main/assets/images/Name%20required.png "Name Required Input")
 
 
 You will then be prompted to enter your desired city. This will allow you to get the weather for that location. This is not required for the application to work.
 
-![Alt text](url "Title")
+![Snapshot of city input](https://github.com/TrentekaHarris/Starting-With-Positivity/blob/main/assets/images/City%20optional.png "City Input")
 
 
 Afterwards you will see a random quote and the weather if you elected to input a city
 
-![Alt text](url "Title")
+![Snapshot of Personalized Quote and Weather](https://github.com/TrentekaHarris/Starting-With-Positivity/blob/main/assets/images/final%20project%20github.png "Personalized Quote and Weather")
 
 ## Questions?
 
